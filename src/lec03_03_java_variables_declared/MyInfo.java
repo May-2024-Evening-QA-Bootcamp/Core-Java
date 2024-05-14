@@ -24,4 +24,19 @@ public class MyInfo {
 				+ myGender + "\nMy height: " + myHeight + "\nMy Grade: " + myGrade + "\nUS citizen? : " + usCitizen);
 	}
 	
+	/*
+	 You must know it:
+	 Default value of String is null 
+	 Default value of byte is 0
+	 Default value of short is 0
+	 Default value of int is 0
+	 Default value of long is 0
+	 Default value of float is 0
+	 Default value of double is 0
+	 Default value of char is an unicode which is not defined by eclipse IDE [not important]
+	 Default value of boolean is false 
+	 
+	 Here, you must know default value for String, int and boolean [Important interview question]
+	 */
+	
 }
