@@ -34,7 +34,7 @@ public class NamingConvention {
 	
 	// Constant names are written with all upper case letters with words separated by underscores
 	// We will use it in automation framework, no need to worry about it right now
-	public String TODAY = "Sunday";
+	public String TODAY = "Tuesday";
 	public String PLANET_NAME = "Earth";
 	public String WEDDING_REGISTRY_PAGE_TITLE = "Amazon Wedding";
 	public int LONG_WAIT = 10;
