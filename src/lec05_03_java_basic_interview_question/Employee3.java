@@ -6,7 +6,8 @@ public class Employee3 {
 	// static is a local member method of this class
 	public static void main(String[] args) {
 		// local variable
-		String empName = "Mohammad Sharkar";
+		// they should be default type
+		String  empName = "Mohammad Sharkar";
 		int empId = 2188458;
 		char gender = 'M';
 		boolean fullTimeEmployee = false;

@@ -1,6 +1,6 @@
 package lec05_03_java_basic_interview_question;
 
-// Can you call a non-static variable or method inside the main method?
+// Can you call a non-static variable or method inside the main method directly?
 // Ans: By creating an object [line 11, 12]
 // But the interviewer will ask you, without creating object, see next class
 
