@@ -39,65 +39,47 @@ public class Toyota extends ElectricCar implements Car, Drone{
 	public static void countryOfOrigin() {
 		System.out.println("Made in Japan");
 	}
+	
+	// Default methods are allowed only in interfaces, not in regular class
+	/*
+	public default void toyotaColor () {
+		
+	}
+	*/
 
 	@Override
 	public void rent() {
-		// TODO Auto-generated method stub
+		System.out.println("rent method from Taxi Interface");
+		
+	}
+
+	@Override
+	public void carryingPassenger() {
+		System.out.println("carryingPassenger method from Taxi Interface");
 		
 	}
 
 	@Override
 	public void carryingGoods() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void lightWeight() {
-		// TODO Auto-generated method stub
+		System.out.println("carryingGoods method from Truck Interface");
 		
 	}
 
 	@Override
 	public void start() {
-		// TODO Auto-generated method stub
+		System.out.println("start method from Car Interface");
 		
 	}
 
 	@Override
 	public void stop() {
-		// TODO Auto-generated method stub
+		System.out.println("stop method from Car Interface");
 		
 	}
 
 	@Override
-	public String brake(String brakeName) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public void price() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public String carName() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public double carRating() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
-	public void autoPilot() {
-		// TODO Auto-generated method stub
-		
+	public void lightWeight() {
+		System.out.println("lightWeight method from Drone Interface");		
 	}
 
 	@Override
@@ -108,16 +90,40 @@ public class Toyota extends ElectricCar implements Car, Drone{
 
 	@Override
 	public void canFloat() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("canFloat method from HoverCar Interface");		
+	}
+
+	@Override
+	public void price() {
+		System.out.println("price method from ElectricCar Abstract class");		
+	}
+
+	@Override
+	public String brake(String brakeName) {
+		String m = "brake method from Car Interface";
+		System.out.println(m);
+		return m;
+	}
+
+	@Override
+	public String carName() {
+		System.out.println("carName method from Electric Car Abstract class");
+		return null;
+	}
+
+	@Override
+	public void autoPilot() {
+		System.out.println("autoPilot method from Flying Car Abstract class");		
+	}
+
+	@Override
+	public double carRating() {
+		double rating = 9.543;
+		System.out.println(rating);
+		return rating;
 	}
 	
-	// Default methods are allowed only in interfaces, not in regular class
-	/*
-	public default void toyotaColor () {
-		
-	}
-	*/
+	
 	
 	
 
