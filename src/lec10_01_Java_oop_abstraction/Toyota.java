@@ -1,4 +1,4 @@
-package lec09_02_Java_oop_abstraction;
+package lec10_01_Java_oop_abstraction;
 
 // A regular class
 // A regular class can inherit only one (regular class or one abstract class) by extends keyword
@@ -84,7 +84,7 @@ public class Toyota extends ElectricCar implements Car, Drone{
 
 	@Override
 	public void expensive() {
-		System.out.println("expensive method from ??? ");
+		// TODO Auto-generated method stub
 		
 	}
 

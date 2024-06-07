@@ -1,4 +1,4 @@
-package lec09_02_Java_oop_abstraction;
+package lec10_01_Java_oop_abstraction;
 
 // Abstract Class contains both abstract and non abstract methods
 // Abstract Class names starts with UpperCase like a regular class
@@ -19,7 +19,7 @@ public abstract class ElectricCar extends FlyingCar implements Rocket, HoverCar 
 	// Global variable
 	// Inside Abstract class, variable can be declared or initialized
 	public int costOfTesla;
-	public String nameOfTheElectricCar = "Tesla";
+	public String nameofTheElectricCar = "Tesla";
 	
 	// Can you Declare a Constructor inside Abstract class? Ans: Yes
 	public ElectricCar() {

@@ -1,4 +1,4 @@
-package lec09_02_Java_oop_abstraction;
+package lec10_01_Java_oop_abstraction;
 
 // Interface names starts with UpperCase 
 // They follow Camel case or Snake case pattern.
@@ -17,7 +17,7 @@ package lec09_02_Java_oop_abstraction;
 
 // implements keyword can't be used inside Interface for inheritance, Regular class or Abstract class
 
-public interface Car extends Taxi, Truck {
+public interface Car extends Taxi, Truck, Drone {
 	// Global variable
 	// Inside Interface, variable can not be declared, see line 17
 	// public int year;
