@@ -36,7 +36,7 @@ public class KnowingArray {
 		System.out.println(president[3]);
 		// System.out.println(president[5]); //  java.lang.ArrayIndexOutOfBoundsException
 		
-		// important interview question 100%: length () vs length property
+		// important interview question 100%: length () method vs length property
 		// or how can you get the size of a String and an Array?
 		// 'length' preserve the size of an array, 'length' is not a method or field or variable,
 		// rather length is a parameter/properties
