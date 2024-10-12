@@ -1,4 +1,4 @@
-package lec11_01_java_different_type_of_class;
+	package lec11_01_java_different_type_of_class;
 
 public class Use_of_wrapper_class {
 
