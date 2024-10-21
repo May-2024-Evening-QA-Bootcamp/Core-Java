@@ -71,7 +71,7 @@ public class Map_01_use_of_hashMap {
 		// get(K) --> Returns the value to which the specified key is mapped,or null if this map contains no mapping for the key. 
 		System.out.println(nameAndAge.get("Luis"));
 
-		System.out.println("\n---------------------");
+		System.out.println("\n----------#-----------");
 		// keySet() --> Returns a Set view of the keys contained in this map.
 		Set<String>allKeys = nameAndAge.keySet();
 		System.out.println(allKeys);
