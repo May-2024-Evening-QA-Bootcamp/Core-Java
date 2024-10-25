@@ -18,7 +18,7 @@ public class C05_countConsonant {
 		// But not a good and smart approach
 		// Interviewer don't like the arithmetic expression for coding challenge
 		System.out.println("Number of Consonant: " + (s.length() - count));
-	} 
+	}
 
 	public static void main(String[] args) {
 		countConsonant("Pack my box with five dozen liquor jugs");

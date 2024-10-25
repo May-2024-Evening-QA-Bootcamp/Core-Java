@@ -5,14 +5,15 @@ package lec21_coding_challenge;
 public class C02_consonant {
 	public static void countVowel(String s) {
 		s = s.toLowerCase();
-		// s = s.replaceAll(" ", "");  // below line is more smarter
+		// s = s.replaceAll(" ", ""); // below line is more smarter
 		s = s.replaceAll("\\s", "");
 		// replacing all white space [\\s stands for “whitespace character”]
 		int count = 0;
-		for (int i = 0; i<s.length(); i++) {
-			if(s.charAt(i)!='a' && s.charAt(i) !='e' && s.charAt(i) !='i' && s.charAt(i) != 'o' && s.charAt(i) !='u') {
-				count +=1;				
-			}			
+		for (int i = 0; i < s.length(); i++) {
+			if (s.charAt(i) != 'a' && s.charAt(i) != 'e' && s.charAt(i) != 'i' && s.charAt(i) != 'o'
+					&& s.charAt(i) != 'u') {
+				count += 1;
+			}
 		}
 		System.out.println("Number of consonant: " + count);
 	}

@@ -9,12 +9,12 @@ Output: "Sharkar Kabir Tofael Mohammad Hello"
 */
 
 public class A06_reverseTheWordsFromParagraph {
-	
+
 	public static void reverseTheStringInWords(String s) {
-		String [] words = s.split(" ");
+		String[] words = s.split(" ");
 		// System.out.println(Arrays.toString(words));
-		
-		for(int i = words.length-1; i>=0; i-- ) {
+
+		for (int i = words.length - 1; i >= 0; i--) {
 			System.out.print(words[i] + " ");
 		}
 	}

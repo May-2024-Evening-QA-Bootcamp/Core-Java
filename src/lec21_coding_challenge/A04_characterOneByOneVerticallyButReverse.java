@@ -1,6 +1,5 @@
 package lec21_coding_challenge;
 
-
 /*
 Que: Print your name vertically but reverse [They will not mention: character by character]
 

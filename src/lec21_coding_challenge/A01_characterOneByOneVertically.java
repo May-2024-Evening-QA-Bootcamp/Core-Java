@@ -18,13 +18,13 @@ r
 */
 
 public class A01_characterOneByOneVertically {
-	
+
 	public static void nameInVertical(String s) {
-		for(int i = 0; i<s.length(); i++) {		
+		for (int i = 0; i < s.length(); i++) {
 			System.out.println(s.charAt(i));
 		}
 	}
-	
+
 	public static void main(String[] args) {
 		nameInVertical("Tofael Kabir");
 		System.out.println("--------------");
@@ -33,13 +33,3 @@ public class A01_characterOneByOneVertically {
 	}
 
 }
-
-
-
-
-
-
-
-
-
-

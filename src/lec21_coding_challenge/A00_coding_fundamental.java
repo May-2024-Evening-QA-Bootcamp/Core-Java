@@ -12,18 +12,18 @@ public class A00_coding_fundamental {
 		} else {
 			System.out.println(val1 + " is not greater than " + val2);
 		}
-		
+
 		System.out.println("------------------------o---------o--");
-		for(int i = 0; i<5; i++) {
+		for (int i = 0; i < 5; i++) {
 			System.out.println(i);
 		}
-		
+
 		System.out.println("-----o---------o----------------------");
-		String [] allPresident = {"Joe Biden", "Donald Trump", "Barack Obama", "George Bush Jr", "Bill Clinton"}; 
-		for(int i = 0; i<allPresident.length; i++) {
+		String[] allPresident = { "Joe Biden", "Donald Trump", "Barack Obama", "George Bush Jr", "Bill Clinton" };
+		for (int i = 0; i < allPresident.length; i++) {
 			System.out.println(allPresident[i]);
 		}
-	
+
 	}
 
 }

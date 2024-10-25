@@ -8,12 +8,13 @@ public class C01_countVowel {
 		s = s.toLowerCase();
 		s = s.replaceAll("\\s", "");
 		int count = 0;
-		for (int i = 0; i<s.length(); i++) {
-			if(s.charAt(i)=='a' || s.charAt(i) =='e' || s.charAt(i) =='i' || s.charAt(i) == 'o' || s.charAt(i) =='u') {
+		for (int i = 0; i < s.length(); i++) {
+			if (s.charAt(i) == 'a' || s.charAt(i) == 'e' || s.charAt(i) == 'i' || s.charAt(i) == 'o'
+					|| s.charAt(i) == 'u') {
 				// count++;
 				// count = count + 1;
-				count +=1;				
-			}			
+				count += 1;
+			}
 		}
 		System.out.println("Number of vowel: " + count);
 	}
